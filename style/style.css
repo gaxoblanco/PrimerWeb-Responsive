@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 1.6rem;
+    width: 100%;
+    height: 100vh;  
+    
+}
+
+header{
+    background: rgb(255, 34, 34);
+    height: 8rem;
+    place-items: center;
+}
+header nav li:nth-child(1){
+    display: grid;
+    position: absolute;
+}
+header nav li:nth-child(2){
+    display: flex;
+    justify-content: flex-end;
+}
+
+a .logo{
+    height: 6rem;
+    margin: 1rem;
+}
+
+a .usuario {
+    width: 6rem;
+    height: 6rem;
+    background: gray;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+
+
+/* main */
+main{
+    justify-content: center;
+    display: grid;
+    place-items: center;
+}
+
+
+article .card{
+    position: absolute;
+}
+.card-body{
+    background-color: rgb(226, 226, 226);
+    margin-top: 3rem;
+    height: 40rem;;
+    width: 30rem;
+    
+}
+
+.card-body h2{
+    background: #ebccde;
+    width: 15rem;
+    height: 4rem;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #ffffff ;  
+    position: absolute;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    
+}
+.card{
+    background: gray;
+    margin-top: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    padding: 2rem;
+}
+.photo{
+    display:flex;
+    justify-content: center;
+    background-image: url(https://www.pkparaiso.com/imagenes/anime/033/002.jpg);
+    width: 26rem;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.photo img{
+    width: 22rem;
+    margin-top: 1rem;
+}
+
+.species{
+    margin: 1rem 0;
+}
+
+.description{
+    background: white;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.button-adop{
+    justify-content: center;
+    display: grid;
+    place-items: center;
+}
+.button-adop button{
+    border: none;
+    position: absolute;
+    background: #d87ab1;
+    border: 1px solid #ffffff ;  
+    width: 12rem;
+    height: 4rem;
+    border-radius: 12px;
+}
+
