@@ -1,0 +1,51 @@
+body{
+
+}
+a .logo{
+    height: 6rem;
+    margin: 2rem;
+}
+
+header{
+    height: 8rem;
+}
+.grafic{
+    width:24rem;
+    margin-top: 8rem;
+}
+
+main{
+    margin-left: 30rem;
+}
+
+footer .tablet{
+    display: none;
+}
+footer .desktop{
+    position: fixed;
+    display: block;
+    background: var(--nav-bar);
+    width: 20rem;
+    height: 100%;
+    top: 0;
+}
+
+.desktop{
+    width: 15rem;
+    padding:3rem;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 15rem;
+    display: grid;
+}
+ul li .leftBar{
+    color: var(--text);
+    padding: 1rem 2rem;
+    border: 1px solid var(--text);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    
+}
+footer .desktop a:nth-child(2){
+    
+}

@@ -38,9 +38,16 @@ header{
     position: fixed;
     top: 0;
     background: var(--nav-bar);
-    height: 7rem;
+    height: 4rem;
     width: 100%;
     z-index: 1;
+}
+.grafic{
+    width: 20rem;
+    position: absolute;
+    margin-top: 4rem;
+    border-right: 40px solid transparent;
+    border-top: 3rem solid var(--nav-bar);
 }
 header nav li:nth-child(1){
     display: grid;
@@ -76,15 +83,6 @@ a .point:nth-child(3){
     border: 1px solid var(--Black);
 }
 
-.grafic{
-    width: 70%;
-    position: absolute;
-    margin-top: 4rem;
-    border-left: 40px solid transparent;
-    border-bottom: 3rem solid var(--back-web);
-}
-
-
 /* main */
 main{
     justify-content: center;
@@ -102,17 +100,17 @@ main:nth-child(2){
     width: 30rem;
     margin-bottom: 3rem;
 }
-
+.card-body .name{
+    display: grid;
+    place-items: center;
+}
 .card-body h2{
     background: var(--nav-bar);
-    width: 11rem;
-    height: 4rem;
     border-radius: 10px;
     text-align: center;
-    padding-top: 0.5rem;
-    margin-left: 10rem;
-    margin-top: 1rem;
-    position: absolute;   
+    padding: 0.5rem 1rem;   
+    position: absolute;
+    margin-top: 6rem;
 }
 
 .card{
@@ -148,6 +146,7 @@ main:nth-child(2){
     padding: 1rem;
     border-radius: 15px;
     margin-bottom: 1rem;
+    font-size: var(--lg);
 }
 
 .button-adop{
@@ -165,9 +164,10 @@ main:nth-child(2){
     height: 4rem;
     border-radius: 12px;
     color: var(--text);
+    font-size: var(--lg);
 }
 /*footer*/
-footer{
+footer .tablet{
     width: 100%;
     background-color: var(--nav-bar);
     height: 5rem;
@@ -182,14 +182,14 @@ footer{
     width: 100vw;
 }
 
-footer nav a:nth-child(1){
+footer .tablet a:nth-child(1){
     margin-left: 2rem;
 }
-footer nav a:nth-child(2){
+footer .tablet a:nth-child(2){
     display: flex;
     justify-content: center;
 }
-footer nav a:nth-child(3){
+footer .tablet a:nth-child(3){
     margin-right: 2rem;
 }
 
@@ -206,7 +206,11 @@ footer nav a:nth-child(3){
     background: var(--button);
     border-radius: 10px;
     padding-top: 0.5rem;
+    font-size: var(--lg);
 }
 
+.desktop{
+    display: none;
+}
 
     

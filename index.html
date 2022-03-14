@@ -9,9 +9,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon Adoption</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link 
+    rel="stylesheet" 
+    href="./style/tablet.css" 
+    media="screen and (min-width: 600px)"
+    />
+    <link
+    rel="stylesheet" 
+    href="./style/desktop.css"
+    media="screen and (min-width: 900px)"
+    />
 </head>
 <body>
     <header>
+        <div class="grafic"></div>
         <nav>
             <ul class="nav-bar">
                 <li>
@@ -27,7 +38,7 @@
                             <img class="point" src="" alto = "">
                         </a>
                     </div>
-                    <div class="grafic"></div>
+                    
                 </li>
             </ul>
         </nav>
@@ -37,13 +48,13 @@
         <section class="card-body">
             <div class="name">
                 <h2>
-                    Nombre
+                    nombre
                 </h2>
             </div>
             <article class="card">
-                <div class="photo"> <!--cambiar por la etiqueta de imagen-->
+                <figure class="photo"> <!--cambiar por la etiqueta de imagen-->
                     <img class="" src="./img/espeon.png" alt = "imagen de un Espeon bebe">
-                </div>
+                </figure>
                 <div class="species">
                     <h3>
                         Psiquico
@@ -114,21 +125,48 @@
         </section>
     </main>
     <footer>
-        <nav>
+        <nav class="tablet">
             <ul class="footerBar">
                 <li>
                     <a href="http://">
                         <img class="" src="./img/menu.png" alt = "menu">
                     </a>
-                    
-               
-                    <a href="http://"><div class="other">Edad</div></a>
-                
+                    <a href="http://">
+                        <div class="other">Edad</div>
+                    </a>
                     <a href="http://">
                         <img class="lupa" src="./img/lupa.png" alt = "lupa">
                     </a>
                 </li>
-
+            </ul>
+        </nav>
+        <nav class="desktop">
+            <ul class="footerBar">
+                <li>
+                    <a class="leftBar" href="http://">
+                        manu
+                    </a>
+                </li>
+                <li>
+                    <a class="leftBar" href="http://">
+                        adopcion
+                    </a>
+                </li>
+                <li>
+                    <a class="leftBar" href="http://">
+                        donar
+                    </a>
+                </li>
+                <li>
+                    <a class="leftBar" href="http://">
+                        nosotros
+                    </a>
+                </li>
+                <li>
+                    <a class="leftBar" href="http://">
+                        voluntariado
+                    </a>
+                </li>
             </ul>
         </nav>
     </footer>
