@@ -11,10 +11,11 @@
 
 .photo{
     margin: auto 0;
-    width: 22rem;
-    height: 24rem;
+    width: 20rem;
+    height: 22rem;
     grid-column: 1/2;
     grid-row: 1;
+    
 }
 
 .species{

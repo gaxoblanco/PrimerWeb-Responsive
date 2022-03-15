@@ -13,10 +13,16 @@ header{
     width:24rem;
     margin-top: 8rem;
 }
+a .user{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+}
 
 main{
-    margin-left: 30rem;
+    margin-left: 20rem;
 }
+
 
 footer .tablet{
     display: none;
@@ -35,7 +41,7 @@ footer .desktop{
     padding:3rem;
     text-align: center;
     margin-top: 0;
-    padding-top: 15rem;
+    padding-top: 12rem;
     display: grid;
 }
 ul li .leftBar{
@@ -43,9 +49,6 @@ ul li .leftBar{
     padding: 1rem 2rem;
     border: 1px solid var(--text);
     border-radius: 10px;
-    margin-bottom: 3rem;
-    
-}
-footer .desktop a:nth-child(2){
+    margin-bottom: 2rem;
     
 }

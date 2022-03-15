@@ -38,14 +38,14 @@ header{
     position: fixed;
     top: 0;
     background: var(--nav-bar);
-    height: 4rem;
+    height: 5rem;
     width: 100%;
     z-index: 1;
 }
 .grafic{
     width: 20rem;
     position: absolute;
-    margin-top: 4rem;
+    margin-top: 4.5rem;
     border-right: 40px solid transparent;
     border-top: 3rem solid var(--nav-bar);
 }
@@ -63,25 +63,15 @@ a .logo{
     margin: 1rem;
 }
 
-a .point {
-    width: 2rem;
-    height: 2rem;
+a .user {
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
-    margin: 1rem 1rem 0 0;
+    margin: 1rem;
+    background: rgb(173, 173, 173);
+    border: 1px solid var(--Black);
 }
 
-a .point:nth-child(1){
-    background: red;
-    border: 1px solid var(--Black);
-}
-a .point:nth-child(2){
-    background: yellow;
-    border: 1px solid var(--Black);
-}
-a .point:nth-child(3){
-    background: green;
-    border: 1px solid var(--Black);
-}
 
 /* main */
 main{
@@ -125,7 +115,6 @@ main:nth-child(2){
     display:flex;
     justify-content: center;
     background-image: url(https://www.pkparaiso.com/imagenes/anime/033/002.jpg);
-    width: 26rem;
     margin: 0 auto;
     border-radius: 15px;
 }
